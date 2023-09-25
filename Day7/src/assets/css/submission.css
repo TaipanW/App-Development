@@ -1,0 +1,25 @@
+  .text_title_success {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text_title_success h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20%;
+    color: black;
+  }
+  
+  .text_title_success h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .text_title_success img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,243 @@
+.home_page{
+  overflow-x: hidden;
+}
+.header_home {
+    background-color: #ffffff;
+    border-bottom: 1px solid #afaaaa;
+    color: #000000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    z-index: 100;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  .logo_home {
+    width:30%;
+    padding-left: 3%;
+  }
+  .overlay{
+    background-color: #9b9b9b18;
+  }
+  
+  .nav_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav_menu ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  .nav_menu a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Tex Gyre Adventor';
+    font-weight: bold;
+    font-size: 21px;
+  }
+  
+  .section {
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .section1{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  }
+  .section2{
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    width: 100%;
+     
+  }
+  .title1_s2{
+    font-size: 55px;
+    padding-top:5%;
+  }
+
+  .title_line{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 70px;
+    font-family: 'Tex Gyre Adventor';
+    font-weight: 600;
+    color: #000000;
+    background-color: #bdb8b89c;
+    width: 100vw;
+    height: 10vh;
+  }
+  #bg-video {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    z-index: -1; 
+  }
+  .bt_home_exp{
+    width: auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .section2{
+    background-color: rgba(255, 255, 255, 0.841);
+  }
+  .card_home {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000000;
+  }
+    
+  .c_image{
+    border: 5px solid rgb(4, 15, 55);
+    border-radius: 15px;
+    width: 30%;    
+    margin-top: 8%;
+    display: flex;
+  }
+  .waiting{
+    margin-left: 1%;
+  }
+  .waiting p{
+    font-size: 30px;
+    padding: 3%;
+  }
+  .waiting h4{
+    font-size: 30px;
+  }
+
+  .buttons_home{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;  
+  }
+.log_hm {
+  position: absolute;
+  margin-top: 6%;
+  padding: 5px;
+}
+
+.reg_hm{
+  position: absolute;
+  margin-top: 2%;
+  padding: 5px;
+}
+.log_hm,
+.reg_hm{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+   }
+   .reg_hm:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   .log_hm:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   
+  .reg_hm:active {
+    transform: translate(0em, 0.2em);
+   }
+   .log_hm:active {
+    transform: translate(0em, 0.2em);
+   }
+   .section3{
+    background-color: rgba(255, 255, 255, 0.841);
+   }
+   .text_s3{
+    margin-top: 10%;
+    font-size: 50px;
+    padding-left: 20%;
+   }  
+   .section3 p{
+      font-size: 38px;
+      padding-left: 20%;
+      padding-right:20%;
+      padding-top: 3%;
+      margin-left: 3%;
+   }
+   .section3 {
+    background-color: rgba(255, 255, 255, 0.841);
+    padding: 30px 0;
+  }
+  
+  .card-container_s3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .card_s3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    margin-top: 3%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-image_s3v1 {
+    width: 100px; 
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .s3_img_v1 {
+    width: 100px;
+    height:100px;
+    border-radius: 0%;
+  }
+  
+  .card-text_v3 h3 {
+    padding-top: 2%;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text_v3 p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+
+  @font-face {
+    font-family: 'Tex Gyre Adventor';
+    src: url(../fonts/tex-gyre-adventor/texgyreadventor-regular.otf);
+  }
+
+  @font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/league-spartan-master/LeagueSpartan-Bold.otf');
+  }
