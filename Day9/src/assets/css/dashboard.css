@@ -1,0 +1,201 @@
+body{
+  font-family: 'MSans';
+}
+.dash-navbar {
+  background-color: #ffffff ;
+  color: black;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    width: 100%; 
+    font-family: 'ZT Gatha';
+    font-size: 40px;
+  }
+  .dash_cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 95vh;
+  }
+  .offer_tab{
+    text-align: center;
+    background-color: rgb(15, 175, 58);
+    color: white;
+    font-family: 'ZT Gatha';
+    height: 8vh;
+    padding-top: 26px;
+
+  }
+  .text_offer{
+    font-size: 24px;
+  }
+
+  
+
+  
+  .logo_site img {
+    width: 180px;
+    height: auto;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    width: 600px; 
+  }
+  
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: -30px; 
+  }
+  
+  .search-button img {
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .nav-dash {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-dash li {
+    display: inline;
+    padding-right: 80px;
+  }
+  .nav-dash li:last-child{
+    padding-right: 0px;
+  }
+  .nav-dash a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  
+.logout_bor {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #19dbc7;
+    cursor: pointer;
+    border: none ;
+    font-family: 'ZT Gatha';
+}
+.logout_bor:hover {
+    background-color: rgb(16, 151, 14);
+    color: black;
+  }
+
+  .welcome_user_dash h1{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .welcome_user_dash h2{
+    text-align: center;
+    padding-top: 2%;
+  }
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  height: 40%;
+  padding-top: 100px;
+  background-color:transparent;
+
+}
+
+.dashboard-block {
+  width: calc(26.33% - 30px);
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px; 
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.dashboard-block h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dashboard-block p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.x1{
+  height:120px;
+}
+.x2{
+  height: 120px;
+}
+.x3{
+  height: 120px;
+}
+.x4{
+  height: 120px;
+}
+.x5{
+  height: 120px;
+}
+.x6{
+  height: 120px;
+}
+
+
+ 
+@font-face {
+  font-family: 'Codec Cold Regular';
+  src: url('../fonts/codec/Codec-Warm-Regular-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sinkin Sans';
+  src: url(../fonts/sinkin-sans/SinkinSans-400Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MSans';
+  src: url(../fonts/metropolis/Metropolis-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Handil Pro';
+  src: url(../fonts/handil-pro/HandilPro-Medium.otf);
+}
+
+@font-face {
+  font-family: 'ZT Gatha';
+  src: url(../fonts/zt-gatha/ZTGatha-SemiBold.otf);
+}
+@font-face {
+  font-family: 'Monserrat';
+  src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
